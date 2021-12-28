@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <!--<link rel="stylesheet" href="css/styles.css">-->
+    <style>
+        .upper{
+    margin: 30px auto 0 auto ;
+    background-color: gainsboro;
+    width: 500px;
+    height: 400px;
+}
+.linus{
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    border: none;
+    margin: 30px  175px;
+    position: relative;
+}
+.linus_dec{
+color: blue;
+font-family: sans-serif;
+font-size: 20px;
+position: absolute;
+margin: 0 100px;
+position: relative;
+}
+.h2{
+    position: absolute;
+    margin: 0 0 0 100px ;
+}
+.middle{
+    margin-right: 30% ;
+}
+.khan_pic{
+    width: 150px;
+    height: 200px;
+    margin: 0 20px 0 30%;
+    float: left;
+}
+.Khan_description{
+    text-align: left;
+    margin-bottom: 100px;
+}
+#Sal{
+    color: red;
+}
+.bottom{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: orangered;
+    padding: 30px;
+    height: 130px;
+}
+.ken{
+    /*background-color: red;*/
+    position: relative;
+    margin-right: 50%;
+    font-size: 20px;
+    text-align: left;
+    position: relative;
+    border-right: 8px solid black;
+    height: 100px;
+}
+.dennis{
+    position: relative;
+    bottom: 110px;
+    margin-left: 50%;
+    font-size: 20px;
+    text-align:right ;
+    /*background-color: blue;*/
+}
+.ken_head{
+    color: white;
+}
+.dennis_head{
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <div class="overall">
+        <div class="upper">
+            <img class="linus" src="https://masai-course.s3.ap-south-1.amazonaws.com/resources/images/linus.jpg" id="image" alt="Linus Torvalds">
+            <div class="linus_dec">
+            <h1>Linus Torvalds</h1>
+            </div>
+            <h2 class="h2">The Creator of Linux & GIT </h2>
+        </div>
+        <br/>
+        <br/>
+        <div class="middle">
+            <img class="khan_pic" src="https://masai-course.s3.ap-south-1.amazonaws.com/resources/images/khan.jpg" alt="khanImage">
+            <div class="Khan_description">
+                <h1 id="Sal">Sal Khan</h1>
+                <h3>Salman Khan is the founder of the Khan Academy which has a mission of providing a free world-class education for anyone, anywhere.</h3>
+            </div>
+        </div>
+        <br>
+        <br/>
+        <div class="bottom">
+            <div class="ken">
+                <h2 class="ken_head">Ken Thopmson</h2>
+                <p><strong>Designed and Implemented the original Unix operating system</strong></p>
+            </div>
+            <div class="dennis">
+                <h2 class="dennis_head">Dennis Ritchie</h2>
+                <p><strong>The creator of C programming language</strong></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
